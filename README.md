@@ -3,6 +3,9 @@
 A ChatGPT-like web application powered by Facebook's BlenderBot model.
 Built with a Flask backend and a custom HTML/CSS/JavaScript frontend.
 
+## 🌐 Live Demo
+👉 [Try it on Hugging Face Spaces](https://huggingface.co/spaces/Mae-Mae/blenderbot-chatbot)
+
 ## 📖 About
 This project demonstrates how to build a full-stack AI chatbot web 
 application from scratch. The Flask backend hosts the BlenderBot model 
@@ -14,9 +17,9 @@ This app runs on a **temporary IBM Skills Network lab environment**.
 The URL is only active while the lab session is open and Flask is running.
 
 To run this app permanently you can deploy it to a cloud service like:
+- **Hugging Face Spaces** ✅ [Live here](https://huggingface.co/spaces/Mae-Mae/blenderbot-chatbot)
 - **Render.com** (free Flask hosting)
 - **Railway.app** (free Flask hosting)
-- **Hugging Face Spaces** (free, optimized for AI apps)
 
 ## 🔧 Run Locally or in IBM Lab
 ```bash
@@ -115,7 +118,7 @@ session ends. Think of it as:
 |--|--|
 | **GitHub** | 📦 Saves your code permanently |
 | **IBM Lab** | 🖥️ Temporary workspace — wiped when session ends |
-| **Render/HF Spaces** | 🌐 Runs your code with a permanent URL |
+| **HF Spaces** | 🌐 Runs your code with a permanent URL |
 
 ## 🧠 Model Used
 | Model | Description |
