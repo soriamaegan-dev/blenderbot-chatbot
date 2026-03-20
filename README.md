@@ -12,15 +12,6 @@ application from scratch. The Flask backend hosts the BlenderBot model
 and exposes a REST API endpoint. The custom frontend communicates with 
 the backend to create a seamless chat experience similar to ChatGPT.
 
-## ⚠️ Important Note on Running This App
-This app runs on a **temporary IBM Skills Network lab environment**.
-The URL is only active while the lab session is open and Flask is running.
-
-To run this app permanently you can deploy it to a cloud service like:
-- **Hugging Face Spaces** ✅ [Live here](https://huggingface.co/spaces/Mae-Mae/blenderbot-chatbot)
-- **Render.com** (free Flask hosting)
-- **Railway.app** (free Flask hosting)
-
 ## 🔧 Run Locally or in IBM Lab
 ```bash
 # Clone the repo
